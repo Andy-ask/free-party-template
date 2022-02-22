@@ -1,18 +1,54 @@
 # Free Party Cli
 
-版本 1.0.0
+Version 1.0.0
 
-后期会进行改进，当前是默认版本，直接拉取默认配置进行配置，后期会改为按需求配置，目前只支持前端，后期会跟进后端配置
+It will be improved later, currently it's the default version, pull the default configuration directly to configure, later it will be changed to configure on demand, currently it only supports front-end, later it will follow the back-end configuration
 
-默认配置为 `vite react redux redux-toolkit immer react-router axios mockjs sass`
+The default configuration is ``vite react redux redux-toolkit immer react-router axios mockjs sass``
 
 
 ```node
-下载包
+Download packages
 pnpm install | yarn install | npm install
 
-启动方式，推荐使用 pnpm 包管理工具
+The recommended way to start, using the pnpm package management tool
 pnpm dev | yarn dev | npm run dev
 
-打包方式
+Build method
 pnpm build | yarn build | npm run build
+```
+
+```javascript
+Project directory
+|-- README-zh.md
+|-- README.md
+|-- envs------------------environment variables
+|-- favicon.svg
+|-- index.html------------html entry
+|-- mock------------------mock requests
+|   |-- index.ts        
+|-- package.json
+|-- src
+|   |-- App.tsx-----------react main component
+|   |-- common
+|   |   |-- fonts---------font file
+|   |   |-- images--------image files
+|   |   |-- style---------public style files
+|   |   |-- ts------------public ts methods
+|   |-- components--------components
+|   |   |-- counter-------example calculation component
+|   |   |-- sidebar
+|   |-- main.tsx----------entry file
+|   |-- pages-------------routing pages
+|   |   |-- about
+|   |   |-- home
+|   |-- router------------react-router
+|   |   |-- index.tsx
+|   |   |-- router-view---wrapped router-view
+|   |-- store-------------redux
+|   |-- vite-env.d.ts-----types of vite environment variables
+|-- tsconfig.json---------ts配置
+|-- tsconfig.node.json
+|-- types-----------------types
+|-- vite.config.ts--------vite configuration file
+```
