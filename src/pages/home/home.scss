@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin-top: m(8);
+  }
+
+  img + p {
+    margin-top: m(4);
+  }
+
+  p {
+    display: block;
+    width: 60em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 2em;
+    color: #343;
+    font-weight: 400;
+    text-indent: 2em;
+  }
+  p + p {
+    margin-top: m(2);
+  }
+
+  div {
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    a {
+      color: #f87;
+      text-decoration: none;
+      padding: 4px 8px;
+      &:hover {
+        color: #f47;
+      }
+    }
+  }
+}

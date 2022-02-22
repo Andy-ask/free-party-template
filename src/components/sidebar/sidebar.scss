@@ -1,0 +1,22 @@
+.sidebar-link {
+  --sidebar-color: #06f;
+  --hove-sidebar-color: #01f;
+  padding: 0 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--sidebar-color);
+
+  & + & {
+    border-left: 1px solid var(--sidebar-color);
+  }
+
+  &:hover {
+    color: var(--hove-sidebar-color);
+  }
+}
+
+.sidebar {
+  width: 100%;
+  text-align: center;
+  margin-top: m(8);
+}
