@@ -47,7 +47,7 @@ Project directory
 |   |   |-- router-view---wrapped router-view
 |   |-- store-------------redux
 |   |-- vite-env.d.ts-----types of vite environment variables
-|-- tsconfig.json---------ts配置
+|-- tsconfig.json---------ts configuration
 |-- tsconfig.node.json
 |-- types-----------------types
 |-- vite.config.ts--------vite configuration file
