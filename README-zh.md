@@ -2,7 +2,7 @@
 
 版本 1.0.0
 
-后期会进行改进，当前是默认版本，直接拉取默认配置进行配置，后期会改为按需求配置，目前只支持前端，后期会跟进后端配置
+目前是初期版本，只能通过默认配置进行配置，后期会添加一个自由配置选项，当前是拉取默认配置进行配置；目前只支持 react 全家桶，后期会添加 vue less stylus nuxt 等配置，向更加自由配置方向发展
 
 默认配置为 `vite react redux redux-toolkit immer react-router axios mockjs sass`
 

@@ -2,7 +2,7 @@
 
 Version 1.0.0
 
-It will be improved later, currently it's the default version, pull the default configuration directly to configure, later it will be changed to configure on demand, currently it only supports front-end, later it will follow the back-end configuration
+Currently it is the initial version, can only be configured through the default configuration, later will add a free configuration option, the current is to pull the default configuration for configuration; currently only support react whole family bucket, later will add vue less stylus nuxt and other configuration, to more free configuration direction
 
 The default configuration is ``vite react redux redux-toolkit immer react-router axios mockjs sass``
 
