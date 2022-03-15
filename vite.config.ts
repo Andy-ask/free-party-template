@@ -10,7 +10,7 @@ function pathResolve(dir: string) {
 }
 
 // https://vitejs.dev/config/
-export default ({ mode }) => {
+export default ({ mode }: any) => {
   // 获取.env文件里定义的环境变量
   const env: any = loadEnv(mode, process.cwd());
 

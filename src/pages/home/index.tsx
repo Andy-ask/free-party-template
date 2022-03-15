@@ -3,7 +3,7 @@ import './home.scss';
 function Home() {
   return (
     <div className='home'>
-      <img src='../../../favicon.svg' />
+      <img src='../../../favicon.svg' alt='' />
       <p>
         <span>free party cli 集成了 vite react redux redux-toolkit immer react-router axios mockjs sass 基本上实现了 react 全家桶</span>
       </p>
