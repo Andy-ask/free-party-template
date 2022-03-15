@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import SidebarItem from './sidebar-item';
-import './sidebar.scss';
+import './sidebar.css';
 
 const sidebars: Array<SidebarItemInterface> = [
   { to: '/', label: 'home' },

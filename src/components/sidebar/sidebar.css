@@ -5,18 +5,18 @@
   font-size: 16px;
   text-decoration: none;
   color: var(--sidebar-color);
+}
 
-  & + & {
-    border-left: 1px solid var(--sidebar-color);
-  }
+.sidebar-link + .sidebar-link {
+  border-left: 1px solid var(--sidebar-color);
+}
 
-  &:hover {
-    color: var(--hove-sidebar-color);
-  }
+.sidebar-link:hover {
+  color: var(--hove-sidebar-color);
 }
 
 .sidebar {
   width: 100%;
   text-align: center;
-  margin-top: m(8);
+  margin-top: 32px;
 }

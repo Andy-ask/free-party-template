@@ -41,14 +41,6 @@ export default ({ mode }: any) => {
     clearScreen: false, // 关闭vite清屏
     envPrefix: 'FP_', // env 环境变量前缀，默认 VITE_
     envDir: './envs', // 加载 env 目录
-    css: {
-      preprocessorOptions: {
-        // 全局 scss
-        scss: {
-          additionalData: `@import './src/common/style/frame.scss';`,
-        },
-      },
-    },
     server: {
       https: env.VITE_HTTPS == 'true', // 启用 TLS + HTTP/2
       host: true, // 监听所有地址

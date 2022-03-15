@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux';
 // 切片 State 暴露出来的钩子
 import { decrement, increment, incrementByAmount, synchronizeAmount, incrementAsync, selectCount } from './counterSlice';
 // 当前页面的 scss
-import './counter.scss';
+import './counter.css';
 import axios from 'axios';
 
 export default function Counter() {

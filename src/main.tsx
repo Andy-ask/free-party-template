@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import App from './App';
 import '../mock';
+import '/@/common/style/frame.css';
 
 ReactDOM.render(
   <React.StrictMode>
